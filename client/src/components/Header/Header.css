@@ -1,0 +1,34 @@
+.header {
+    background-color: #cdcdcd;
+    padding: 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-menu {
+      display: none;
+    }
+  }
+  
